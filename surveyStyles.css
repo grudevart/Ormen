@@ -1,0 +1,49 @@
+.titleContainer {
+    background-color: teal;
+    color: black;
+    text-align: center;
+        float:right;
+        height: 60px;
+        width:100%;    
+}
+#title {font-size: 110px;
+    font-family:'Gloria Hallelujah', cursive;
+    color: midnightblue;
+    text-align: center;}
+body {
+    display:flex; 
+    flex-direction:column;
+    height:100vh; margin:0;
+}  
+h1,h2 {
+    text-align: center;
+    display: inline;
+}
+h1,h2 {
+    left: 0;
+    right: 0;
+  }
+p {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-top:auto; 
+}
+.navbar-dark {
+    background-color: black;
+}
+.navbar-nav > li > .dropdown-menu {
+    background-color: black; 
+}
+.navbar-nav > li > .dropdown-menu a {   
+    color: whitesmoke;  
+}
+@media (max-width: 350px) {
+    h2,h3,h4 {
+        font-size: larger;
+    }
+}
