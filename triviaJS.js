@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function(){
                 })  
     let check = document.getElementById("submit");
     check.addEventListener('click', function() {
-        if(answerField.value == "1 2 3 4 5"){
+        if(answerField.value == "JK"){
             submitResult.textContent = 'Corrrect!';
             answerField.style.backgroundColor = "lightgreen";
             }
